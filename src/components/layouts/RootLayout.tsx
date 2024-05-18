@@ -17,8 +17,8 @@ export default function Layout({ children, ...rest }: RootLayoutProps) {
         <html lang="en" data-theme={theme?.value||"light"}>
             <body className={cn("", className)} {...rest}>
                 <TanstackQuery>
-                    <ThemeHandler currentTheme={theme?.value||"light"}/>
                     {children}
+                    <ThemeHandler currentTheme={theme?.value||"light"}/>
                 </TanstackQuery>
             </body>
         </html>

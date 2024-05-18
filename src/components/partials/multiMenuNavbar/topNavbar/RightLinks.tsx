@@ -17,7 +17,7 @@ export default function RightLinks({ rightLinks }: RightLinksPropsType) {
                         >
                             <Icon
                                 name={link.icon}
-                                className="w-10 h-10 p-2.5 rounded-full items-center text-primary hover:bg-primary hover:text-white"
+                                className="w-10 h-10 p-2.5 rounded-full items-center text-primary-500 hover:bg-primary-500 hover:text-white"
                             />
                             {/* <span>{link.title}</span> */}
                         </Link>
@@ -26,7 +26,7 @@ export default function RightLinks({ rightLinks }: RightLinksPropsType) {
             )}
             <li className="flex items-center">
                 <Link
-                    className="bg-primary hover:opacity-80 transition-opacity text-white rounded-md px-4 py-2 font-semibold"
+                    className="bg-primary-500 hover:bg-primary-400 transition-opacity text-white rounded-md px-4 py-2 font-semibold"
                     href={"login"}
                 >
                     Login
