@@ -22,12 +22,11 @@ const config: Config = {
             },
             colors: {
                 primary: "hsl(var(--primary) / <alpha-value>)",
-                text: "hsl(var(--text) / <alpha-value>)",
-                background: "hsl(var(--background) / <alpha-value>)",
+                txt: "hsl(var(--text) / <alpha-value>)",
+                bg: "hsl(var(--background) / <alpha-value>)",
             },
         },
     },
     plugins: [],
-    darkMode: "class",
 };
 export default config;
