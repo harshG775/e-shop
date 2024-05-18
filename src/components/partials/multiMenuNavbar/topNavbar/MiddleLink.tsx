@@ -36,10 +36,10 @@ export default function MiddleLinks({
                             <li key={link.title}>
                                 <Link
                                     href={link.href}
-                                    className="relative overflow-hidden group h-10 flex justify-center flex-row items-center hover:text-primary font-medium"
+                                    className="relative overflow-hidden group h-10 flex justify-center flex-row items-center hover:text-primary-500 font-medium"
                                 >
                                     {link.title}
-                                    <span className="bg-primary absolute bottom-0 w-full h-0.5 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-300"></span>
+                                    <span className="bg-primary-500 absolute bottom-0 w-full h-0.5 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-300"></span>
                                 </Link>
                             </li>
                         )
@@ -51,10 +51,10 @@ export default function MiddleLinks({
             <nav
                 className={`lg:hidden z-50 fixed top-0 left-0 bottom-0 min-w-60 ${
                     open ? "-translate-x-[0%]" : "-translate-x-[110%]"
-                } transition-transform ease-in-out bg-bg border-r-2 border-primary/20
+                } transition-transform ease-in-out bg-bg border-r-2 border-primary-500/20
             `}
             >
-                <div className="h-14 border-b-2 border-b-primary/20 flex justify-end items-center px-4">
+                <div className="h-14 border-b-2 border-b-primary-500/20 flex justify-end items-center px-4">
                     <div className="flex-1">
                         <Link
                             href={logoData.href}
@@ -77,7 +77,7 @@ export default function MiddleLinks({
                     <button onClick={() => setOpen(false)}>
                         <Icon
                             name="X"
-                            className="hover:text-primary w-7 h-7 "
+                            className="hover:text-primary-500-500 w-7 h-7 "
                         />
                     </button>
                 </div>
@@ -87,10 +87,10 @@ export default function MiddleLinks({
                             <li key={link.title}>
                                 <Link
                                     href={link.href}
-                                    className="w-full relative overflow-hidden group h-10 flex justify-center flex-row items-center hover:text-primary font-medium"
+                                    className="w-full relative overflow-hidden group h-10 flex justify-center flex-row items-center hover:text-primary-500 font-medium"
                                 >
                                     {link.title}
-                                    <span className="bg-primary absolute bottom-0 w-full h-0.5 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-300"></span>
+                                    <span className="bg-primary-500 absolute bottom-0 w-full h-0.5 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-300"></span>
                                 </Link>
                             </li>
                         )

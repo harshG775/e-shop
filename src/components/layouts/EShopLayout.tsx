@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     phone: "+972-555-555-555",
                 }}
             />
-            <TopNavbar />
+            <TopNavbar className="sticky top-0"/>
             {children}
         </>
     );

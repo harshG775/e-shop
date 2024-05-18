@@ -13,7 +13,7 @@ export default function Home() {
             <div className="text-center py-1">
                 <Link
                     href="/home"
-                    className="text-2xl bg-primary-500 text-neutral-50 rounded-md px-4 py-2"
+                    className="text-2xl font-bold bg-primary-500 text-neutral-50 rounded-md px-4 py-2 hover:bg-primary-400"
                 >
                     Go to Home
                 </Link>

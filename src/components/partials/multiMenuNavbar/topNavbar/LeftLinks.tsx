@@ -22,13 +22,13 @@ export default function LeftLinks({
                 className="grid place-content-center lg:hidden pr-2"
             >
                 <button>
-                    <Icon name="Menu" className="hover:text-primary w-7 h-7" />
+                    <Icon name="Menu" className="text-text-950 hover:text-primary-500 w-7 h-7" />
                 </button>
             </li>
             <li>
                 <Link
                     href={leftLinksData.href}
-                    className="flex gap-1 justify-center items-center"
+                    className="flex gap-1 justify-center items-center text-primary-500 font-bold"
                 >
                     {leftLinksData.src && (
                         <Image
@@ -39,7 +39,7 @@ export default function LeftLinks({
                             className="w-full"
                         />
                     )}
-                    <span className="text-2xl font-bold">
+                    <span className="text-2xl">
                         {leftLinksData.title}
                     </span>
                 </Link>
