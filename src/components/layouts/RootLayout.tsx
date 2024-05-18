@@ -15,7 +15,7 @@ export default function Layout({ children, ...rest }: RootLayoutProps) {
     const theme = get("theme");
     return (
         <html lang="en" data-theme={theme?.value||"light"}>
-            <body className={cn("bg-bg text-txt", className)} {...rest}>
+            <body className={cn("bg-background-50 text-text-50", className)} {...rest}>
                 <TanstackQuery>
                     <ThemeHandler currentTheme={theme?.value||"light"}/>
                     {children}

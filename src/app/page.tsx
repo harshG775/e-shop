@@ -8,12 +8,12 @@ export default function Home() {
                 Welcome 
                 <br className="sm:hidden"/>
                 to
-                <span className="text-primary font-bold"> EShop</span>
+                <span className="text-primary-500 font-bold"> EShop</span>
             </div>
             <div className="text-center py-1">
                 <Link
                     href="/home"
-                    className="text-2xl bg-primary text-neutral-50 rounded-md px-4 py-2"
+                    className="text-2xl bg-primary-500 text-neutral-50 rounded-md px-4 py-2"
                 >
                     Go to Home
                 </Link>
