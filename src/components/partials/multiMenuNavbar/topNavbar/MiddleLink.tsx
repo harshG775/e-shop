@@ -51,7 +51,7 @@ export default function MiddleLinks({
             <nav
                 className={`lg:hidden z-50 fixed top-0 left-0 bottom-0 min-w-60 ${
                     open ? "-translate-x-[0%]" : "-translate-x-[110%]"
-                } transition-transform ease-in-out bg-background border-r-2 border-primary/20
+                } transition-transform ease-in-out bg-bg border-r-2 border-primary/20
             `}
             >
                 <div className="h-14 border-b-2 border-b-primary/20 flex justify-end items-center px-4">

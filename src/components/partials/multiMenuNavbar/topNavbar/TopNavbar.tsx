@@ -7,12 +7,12 @@ import { cn } from "@/utils/cn";
 
 const TopNavbarData = {
     logoData: {
-        title: "Excite",
+        title: "EShop",
         // src: "https://flowbite.com/docs/images/logo.svg",
         href: "/home",
     },
     leftLinksData: {
-        title: "Excite",
+        title: "EShop",
         // src: "https://flowbite.com/docs/images/logo.svg",
         href: "/home",
     },
@@ -70,7 +70,7 @@ export default function TopNavbar({className}: TopNavbarPropsTypes) {
     const [open, setOpen] = useState(false);
 
     return (
-        <header className={cn("max-w-8xl mx-auto w-full h-14 flex items-center justify-between gap-2 p-2 bg-background border-b-2 border-b-primary/20", className)}>
+        <header className={cn("max-w-8xl mx-auto w-full h-14 flex items-center justify-between gap-2 p-2 bg-bg border-b-2 border-b-primary/20", className)}>
             <LeftLinks
                 leftLinksData={leftLinksData}
                 setOpen={setOpen}
