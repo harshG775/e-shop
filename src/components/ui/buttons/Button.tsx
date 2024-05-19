@@ -16,7 +16,7 @@ const buttonVariants = cva(
     `
     rounded-md
     tracking-tighter font-semibold
-    hover:opacity-70 active:opacity-80
+    hover:opacity-80
     transition-[opacity,transform,outline] duration-300
     
     `,
@@ -28,7 +28,7 @@ const buttonVariants = cva(
                 danger: "bg-red-500 text-neutral-50",
                 success: "bg-green-500 text-neutral-50",
                 warning: "bg-yellow-500 text-neutral-50",
-                outline: "outline outline-2 hover:outline-offset-2 outline-primary-500 text-primary-500",
+                outline: "bg-primary-500/10  outline outline-2 hover:outline-offset-2 outline-primary-500 text-neutral-900",
             },
             size: {
                 base: "h-10 px-4 py-2",
