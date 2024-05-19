@@ -51,7 +51,6 @@ export default function BannerSection_1({ data }: BannerSection_1Props) {
                     <CallToAction callToAction={right.callToAction} />
                 </div>
             </div>
-            <div className="min-h-screen"></div>
         </section>
     );
 }
