@@ -1,5 +1,6 @@
 "use client"
 import Hero from "@/components/pagesComponents/home/header/hero/Hero"
+import HeroBottom from "@/components/pagesComponents/home/header/heroBottom/HeroBottom";
 // import { useEffect, useRef } from "react";
 
 const HomePageData = {
@@ -23,22 +24,22 @@ const HomePageData = {
             {
                 title: "Responsive",
                 description: "Customer service available 24/7",
-                icon: "",
+                icon: "Headset",
             },
             {
                 title: "Secure",
                 description: "Certified and trusted since 2015",
-                icon: "",
+                icon: "ShieldCheck",
             },
             {
                 title: "shipping",
                 description: "free, fast and reliable",
-                icon: "",
+                icon: "Truck",
             },
             {
                 title: "Transparent",
                 description: "Hassle free and transparent",
-                icon: "",
+                icon: "RefreshCw",
             },
         ]
 
@@ -288,12 +289,7 @@ export default function Home() {
         >
             <header>
                 <Hero data={HomePageData.header.hero} />
-                <div>
-                    <span>responsive</span>
-                    <span>secure</span>
-                    <span>shipping</span>
-                    <span></span>
-                </div>
+                <HeroBottom data={HomePageData.header.heroBottom}/>
             </header>
             <section>sections</section>
         </main>
