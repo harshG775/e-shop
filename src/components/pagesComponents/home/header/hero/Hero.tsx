@@ -24,7 +24,7 @@ export default function Hero({ data }: HeroPropsType) {
                 }}
                 className=" rounded-xl p-4 relative min-h-[500px] grid grid-cols-1 lg:grid-cols-[2fr_1fr] items-center"
             >
-                <div className="backdrop-blur-sm rounded-3xl text-center bg-neutral-100/20 grid gap-4 p-6 lg:text-start items-end">
+                <div className="backdrop-blur-md rounded-3xl text-center bg-neutral-0/20 grid gap-4 p-6 py-16 lg:text-start items-end">
                     <div className="max-w-lg lg:max-h-full grid gap-4 mx-auto lg:ml-0">
                         <h1 className="text-5xl font-bold text-primary-500">{title}</h1>
                         <h2 className="text-3xl font-medium text-neutral-900">{subtitle}</h2>
