@@ -1,4 +1,5 @@
 "use client"
+import FeaturedProducts from "@/components/pagesComponents/home/featuredProducts/FeaturedProducts";
 import Hero from "@/components/pagesComponents/home/header/hero/Hero"
 import HeroBottom from "@/components/pagesComponents/home/header/heroBottom/HeroBottom";
 // import { useEffect, useRef } from "react";
@@ -291,7 +292,7 @@ export default function Home() {
                 <Hero data={HomePageData.header.hero} />
                 <HeroBottom data={HomePageData.header.heroBottom}/>
             </header>
-            <section>sections</section>
+            <FeaturedProducts data={HomePageData.sections.section_1}/>
         </main>
     );
 }
