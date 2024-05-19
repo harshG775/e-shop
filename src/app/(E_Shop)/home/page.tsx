@@ -1,4 +1,6 @@
+"use client"
 import Hero from "@/components/pagesComponents/home/header/hero/Hero"
+// import { useEffect, useRef } from "react";
 
 const HomePageData = {
     header:{
@@ -274,9 +276,16 @@ const HomePageData = {
 
 
 
-export default function home() {
+export default function Home() {
+    // const mainRef = useRef<HTMLDivElement>(null);
+    // useEffect(() => {
+    //     // scroll to main
+    //     mainRef.current?.scrollIntoView({ behavior: "smooth" });
+    // },[])
     return (
-        <main className="grid grid-cols-1 gap-2 p-2">
+        <main className="grid grid-cols-1 gap-2 p-2" 
+        // ref={mainRef}
+        >
             <header>
                 <Hero data={HomePageData.header.hero} />
                 <div>
