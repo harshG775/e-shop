@@ -39,7 +39,7 @@ export default function BannerSection_1({ data }: BannerSection_1Props) {
                     className="min-h-96 rounded-xl p-10 flex flex-col justify-start gap-4 items-end"
                 >
                     <h2 className="text-4xl font-semibold text-primary-500">{left.title}</h2>
-                    <p className="text-3xl text-neutral-900">{left.description}</p>
+                    <p className="text-3xl text-neutral-500">{left.description}</p>
                     <CallToAction callToAction={left.callToAction} />
                 </div>
                 <div
