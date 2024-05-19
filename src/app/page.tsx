@@ -16,6 +16,7 @@ export default function Home() {
                     className="text-2xl font-bold bg-primary-500 text-neutral-50 rounded-md px-4 py-2 hover:bg-primary-400 transition-colors duration-200 ease-in-out"
                 >
                     Go to Home
+                    {/* https://www.figma.com/community/file/1347134616065853542 */}
                 </Link>
             </div>
         </main>

@@ -63,4 +63,10 @@
     .text-balance {
         text-wrap: balance;
     }
+    .overlay {
+        border-image: fill 1 linear-gradient(hsl(var(--neutral-500) /0), hsl(var(--neutral-500)));
+    }
+    .overlay-unset {
+        border-image: unset;
+    }
 }
